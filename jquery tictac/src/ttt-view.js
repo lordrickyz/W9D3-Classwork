@@ -20,7 +20,7 @@ class View {
 
     const toggleLi = e => {
       const $setLi = $(e.target);
-      debugger
+      // debugger
       // $setLi.toggleClass('selected'); // works as well
       $setLi.removeClass('not-selected');
       console.log($setLi.data("pos"));

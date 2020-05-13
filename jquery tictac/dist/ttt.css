@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    text-shadow: 1px 5px 10px orange; 
+    font-size: 50px;
+    font-family: fantasy;
+}
+body {
+    background-color: black;
+}
+.ttt {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    width: 500px;
+    margin: 30px, auto;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+   
+}
+
+li {
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left;
+    border: 5px solid black;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.not-selected {
+    background-color: red;
+}
+
+.player1 {
+    background-color: papayawhip;
+}
+
+.player2 {
+    background-color: papayawhip;
+}
+
+.not-selected:hover {
+    cursor: pointer;
+    background-color: rgb(230, 176, 0);
+    box-shadow: 0px 20px 50px 15px orange; 
+}
